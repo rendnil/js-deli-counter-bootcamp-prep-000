@@ -32,7 +32,7 @@ function currentLine(line){
     else{
       while (i < line.length){
          positionline[i] = " "+ (i+1) + ". " + line[i]
-         i = i +1
+         i++
       }
       
       return (`The line is currently:${positionline}`)
