@@ -1,13 +1,13 @@
 var katzDeli = [ ]
-
+var counter = 1
 
 function takeANumber(katzDeliLine, name) {
   
-  
+  counter++
   katzDeliLine.push(name)
   var position = katzDeliLine.length
   
-  return (`Welcome, ${name}. You are number ${position} in line.`)
+  return (`Welcome, ${counter}. You are number ${position} in line.`)
   
 }
 
